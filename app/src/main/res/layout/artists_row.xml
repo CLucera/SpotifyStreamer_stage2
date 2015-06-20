@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/listitem_image"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="artist name"
+        android:id="@+id/listitem_name"
+        android:background="@color/name_bg"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/primary_text_default_material_dark"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>
