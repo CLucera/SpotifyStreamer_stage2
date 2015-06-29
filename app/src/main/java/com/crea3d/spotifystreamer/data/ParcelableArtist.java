@@ -1,7 +1,9 @@
 package com.crea3d.spotifystreamer.data;
 
+import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.text.TextUtils;
 
 import com.crea3d.spotifystreamer.R;
 import com.squareup.picasso.Picasso;
@@ -73,6 +75,10 @@ public class ParcelableArtist implements Parcelable{
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        spotifyId = TextUtils.isEmpty(spotifyId) ? "" : spotifyId;
+        name = TextUtils.isEmpty(name) ? "" : name;
+        thumbnailURL = TextUtils.isEmpty(thumbnailURL) ? "" : thumbnailURL;
+
         dest.writeStringArray(new String[] {spotifyId, name, thumbnailURL});
     }
 

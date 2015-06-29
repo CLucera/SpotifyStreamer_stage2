@@ -18,6 +18,9 @@ public class ParcelableTrack implements Parcelable {
     private String albumName;
     private String thumbnailURL;
     private String previewUrl;
+    private String externalUrl;
+    private long durationMillis;
+
 
     //constructor from the Spotify API Track
 
@@ -25,6 +28,7 @@ public class ParcelableTrack implements Parcelable {
     {
         name = track.name;
         albumName = track.album.name;
+        durationMillis = track.duration_ms;
 
         List<Image> images = track.album.images;
         if(images != null && images.size() > 0) {
@@ -34,20 +38,29 @@ public class ParcelableTrack implements Parcelable {
         }
 
         previewUrl = track.preview_url;
+        if(track.external_urls != null && track.external_urls.containsKey("spotify")){
+            externalUrl = track.external_urls.get("spotify");
+        } else {
+            externalUrl = "";
+        }
     }
 
     //constructor for the Parcelable interface
 
     public ParcelableTrack(Parcel in)
     {
-        String[] data = new String[3];
+        String[] data = new String[5];
+        long[] longData = new long[1];
 
         in.readStringArray(data);
         name = data[0];
         albumName = data[1];
         thumbnailURL = data[2];
         previewUrl = data[3];
+        externalUrl = data[4];
 
+        in.readLongArray(longData);
+        durationMillis = longData[0];
     }
 
     //get methods
@@ -70,7 +83,16 @@ public class ParcelableTrack implements Parcelable {
     public String getPreviewUrl()
     {
         return previewUrl;
-    } //to be used in the Spotify Wrapper part 2
+    }
+
+    public long getDurationMillis()
+    {
+        return durationMillis;
+    }
+
+    public String getExternalUrl() {
+        return externalUrl;
+    }
 
     //Parcelable interface methods
 
@@ -81,7 +103,8 @@ public class ParcelableTrack implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeStringArray(new String[] {name, albumName, thumbnailURL, previewUrl});
+        dest.writeStringArray(new String[] {name, albumName, thumbnailURL, previewUrl, externalUrl});
+        dest.writeLongArray(new long[] {durationMillis});
     }
 
     public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {
@@ -92,4 +115,9 @@ public class ParcelableTrack implements Parcelable {
             return new ParcelableTrack[size];
         }
     };
+
+    @Override
+    public boolean equals(Object o) {
+        return o != null && (o instanceof ParcelableTrack &&  previewUrl.equals(((ParcelableTrack) o).previewUrl));
+    }
 }

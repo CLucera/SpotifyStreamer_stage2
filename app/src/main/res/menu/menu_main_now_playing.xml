@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_now_playing" android:title="@string/menu_now_playing"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_share" android:title="@string/menu_share"
+        android:icon="@drawable/abc_ab_share_pack_mtrl_alpha"
+        android:orderInCategory="101" app:showAsAction="never"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+    <item android:id="@+id/action_region_settings" android:title="@string/menu_change_region"
+        android:orderInCategory="200" app:showAsAction="never" />
+    <item android:id="@+id/action_notification_settings" android:title="@string/menu_change_notification"
+        android:orderInCategory="300" app:showAsAction="never" />
+</menu>

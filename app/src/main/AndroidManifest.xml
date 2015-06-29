@@ -23,6 +23,15 @@
             android:name=".TopTenActivity"
             android:label="@string/app_name" >
         </activity>
+
+        <activity
+            android:name=".PlayerActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service android:name=".MediaService">
+
+        </service>
     </application>
 
 </manifest>

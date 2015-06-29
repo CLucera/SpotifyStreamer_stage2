@@ -2,27 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/libs/spotify-web-api-android-0.1.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c9726fdf058d281729a1d7ccee4501b2cfbce43d">
-        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/spotify-web-api-android-0.1.0-1b35abd4baf95a1c57a49de38be21ade358515fd.jar" />
-    </item>
-    <item
-        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-048769d766df0f01929c17882af7b4b37aa4e1cf.jar" />
-    </item>
-    <item
-        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/classes-4a535d0f0eb4fa3182f64216f38ea80fd8ad86ed.jar" />
-    </item>
-    <item
         jar="/Users/clucera/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -30,11 +9,25 @@
         <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/okio-1.2.0-88dcc6fc618d55d9eed365ae3b96700c35c100f1.jar" />
     </item>
     <item
-        jar="/Users/clucera/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamerStage2/app/libs/spotify-web-api-android-0.1.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
-        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/okhttp-2.2.0-8ea34149b9a0fce918dc02b4704ed1a856ef93aa.jar" />
+        sha1="c9726fdf058d281729a1d7ccee4501b2cfbce43d">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamerStage2/app/build/intermediates/pre-dexed/debug/spotify-web-api-android-0.1.0-a457b9530cafdf154c96b37cc0fb8fff3daff83b.jar" />
+    </item>
+    <item
+        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/libs/spotify-web-api-android-0.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c9726fdf058d281729a1d7ccee4501b2cfbce43d">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/spotify-web-api-android-0.1.0-1b35abd4baf95a1c57a49de38be21ade358515fd.jar" />
+    </item>
+    <item
+        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamerStage2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamerStage2/app/build/intermediates/pre-dexed/debug/classes-05982a62f37ff5f339a3d9e5d5a2fe6fb1f5a589.jar" />
     </item>
     <item
         jar="/Users/clucera/Documents/eclipse/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
@@ -44,11 +37,39 @@
         <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-25bd2b1eb613b135afd6ea877411d7a1d896fa20.jar" />
     </item>
     <item
+        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/classes-d94867faa7f63f78939848b839b995ec4a9e7439.jar" />
+    </item>
+    <item
         jar="/Users/clucera/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
         <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/gson-2.3.1-367d4dfdc4262f8a1da19f97063a9a45120bd65d.jar" />
+    </item>
+    <item
+        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-048769d766df0f01929c17882af7b4b37aa4e1cf.jar" />
+    </item>
+    <item
+        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamerStage2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamerStage2/app/build/intermediates/pre-dexed/debug/classes-38e3f5abcf7c7852255c57190d156636f23790a3.jar" />
+    </item>
+    <item
+        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamerStage2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamerStage2/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-363c02a2bafc653651f4045d3dced1b8a2be5f37.jar" />
     </item>
     <item
         jar="/Users/clucera/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
@@ -58,11 +79,18 @@
         <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-7d739b220d456e82c892a4bb540ac5e87f5d7b5b.jar" />
     </item>
     <item
-        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jar="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/classes-d94867faa7f63f78939848b839b995ec4a9e7439.jar" />
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/classes-4a535d0f0eb4fa3182f64216f38ea80fd8ad86ed.jar" />
+    </item>
+    <item
+        jar="/Users/clucera/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/clucera/AndroidStudioProjects/personali/SpotifyStreamer/app/build/intermediates/pre-dexed/debug/okhttp-2.2.0-8ea34149b9a0fce918dc02b4704ed1a856ef93aa.jar" />
     </item>
     <item
         jar="/Users/clucera/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"

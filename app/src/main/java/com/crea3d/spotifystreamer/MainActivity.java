@@ -8,6 +8,9 @@ import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +37,7 @@ import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends BaseActivity {
 
     private static String OUTSTATE_ARTIST_LIST = "outstateList";
     private static String OUTSTATE_SEARCH_TEXT = "outstateSearch";
@@ -52,9 +55,10 @@ public class MainActivity extends ActionBarActivity {
 
     int requestSentCount = 0;
     private boolean restoringStatus = false;
+    private boolean isPlaying = false;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -110,8 +114,7 @@ public class MainActivity extends ActionBarActivity {
             public void afterTextChanged(final Editable s) {
                 if (restoringStatus) {
                     restoringStatus = false;
-                }
-                else {
+                } else {
                     startSearch(s.toString());
                 }
             }
@@ -275,7 +278,7 @@ public class MainActivity extends ActionBarActivity {
             //set the emptyText for the artist ListView
 
             emptyText.setText(TextUtils.isEmpty(s) ? getString(R.string.start_search) : getString(R.string.no_artists_found, s));
-            if(artists.size() == 0 && !TextUtils.isEmpty(s)){
+            if (artists.size() == 0 && !TextUtils.isEmpty(s)) {
 
                 //if the search is not empty and the request return 0 results (or null) show a toast to inform the user
 
@@ -291,6 +294,7 @@ public class MainActivity extends ActionBarActivity {
             TextView name;
 
         }
+
     }
 
 

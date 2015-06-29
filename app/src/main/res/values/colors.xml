@@ -2,4 +2,6 @@
 <resources>
     <color name="name_bg">#b3348278</color>
     <color name="loading_overlay">#CCFFFFFF</color>
+    <color name="white">#FFF</color>
+    <color name="selected_bg">#ffbbf4d2</color>
 </resources>

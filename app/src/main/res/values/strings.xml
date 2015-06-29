@@ -8,5 +8,25 @@
     <string name="no_artists_found">no artists found for \"%s\", try with another search</string>
 
     <string name="top_ten_title">Top ten tracks</string>
+    <string name="region_error">No track for region %s, try changing region from the action menu</string>
     <string name="artist_error">Artist albums not found</string>
+    <string name="share_error">Share not available for this track</string>
+
+    <string name="menu_now_playing">now playing</string>
+    <string name="menu_share">share</string>
+    <string name="menu_change_region">change region</string>
+    <string name="menu_change_notification">notification settings</string>
+
+    <string name="alert_choice_region_title">choose your region</string>
+    <string name="alert_choice_notification_title">Show notification on Lock Screen</string>
+    <string name="previous">previous</string>
+    <string name="pause">pause</string>
+    <string name="play">play</string>
+    <string name="next">next</string>
+    <string-array name="alert_choice_notification_array">
+        <item>Show notification</item>
+        <item>Hide notification</item>
+    </string-array>
+
+
 </resources>
